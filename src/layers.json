@@ -1,0 +1,1526 @@
+[
+  {
+    "uri": "layer-group://scen/12221120100000600849",
+    "role": "S2",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S2",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221120100000600849/12221120100000600899",
+        "title": "ENY_Reported/S2"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221120000000600750",
+    "role": "G2",
+    "type": "CORENU",
+    "title": "ENY_Situation/G2",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221120000000600750/12221120000000600899",
+        "title": "ENY_Correlated/G2"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221120100000604253",
+    "role": "S2",
+    "type": "CORENU",
+    "title": "ENY_Situation/S2",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221120100000604253/12221120100000604499",
+        "title": "ENY_Correlated/S2"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221169800000600901",
+    "role": "GW",
+    "type": "GLBSGN",
+    "title": "Global_Situation/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221169800000600901/12221140000000600853",
+        "title": "CBRN/EU"
+      },
+      {
+        "uri": "layer://scen/12221169800000600901/12221130000000600800",
+        "title": "CBRN/G3"
+      },
+      {
+        "uri": "layer://scen/12221169800000600901/12221135000000600902",
+        "title": "CBRN/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600901/12221140000000600801",
+        "title": "Mines/EU"
+      },
+      {
+        "uri": "layer://scen/12221169800000600901/12221130000000600751",
+        "title": "Mines/G3"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221130000000600799",
+    "role": "G3",
+    "type": "PLNORD",
+    "title": "JA_17A/G3",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221130000000600799/12221130000000602908",
+        "title": "Bewertung_Gld_iGr/G3"
+      },
+      {
+        "uri": "layer://scen/12221130000000600799/12221130000000600849",
+        "title": "OpsOverlay/G3"
+      },
+      {
+        "uri": "layer://scen/12221130000000600799/12221130000000600899",
+        "title": "OpsOverlay_Phase2/G3"
+      },
+      {
+        "uri": "layer://scen/12221130000000600799/12221130000000601349",
+        "title": "Takt_zus_Gld/G3"
+      },
+      {
+        "uri": "layer://scen/12221130000000600799/12221130000000600949",
+        "title": "Task_Org/G3"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221169800000600899",
+    "role": "GW",
+    "type": "PLNORD",
+    "title": "JA_17A/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221169800000600899/12221135500000600801",
+        "title": "Air_Corridore/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000601999",
+        "title": "Aufklaerungsplan/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221130000000602908",
+        "title": "Bewertung_Gld_iGr/G3"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221169800000600949",
+        "title": "C2_Plan/GW"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221169800000600999",
+        "title": "C2_Plan_Phase2/GW"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120100000601249",
+        "title": "ENY_BewegL/S2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000601350",
+        "title": "ENY_Intention/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000601449",
+        "title": "ENY_Situation/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000601399",
+        "title": "ENY_Variante_1/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000601400",
+        "title": "ENY_Variante_2/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000605159",
+        "title": "ENY_Variante_2_a/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221140000000600799",
+        "title": "EU_Plan/EU"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000602784",
+        "title": "Einsatzunterstuetzungsplan Rm GOESING/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135500000601250",
+        "title": "Feuerunterstuetzungsplan/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221169800000601199",
+        "title": "FueU_Plan/GW"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120100000600985",
+        "title": "FueU_Plan/S2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000600957",
+        "title": "Grundfolie KU Feuer Land/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135500000601484",
+        "title": "Grundfolie KU Feuer Luft/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000601056",
+        "title": "Grundfolie_Pi_1/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000601083",
+        "title": "IED (Erkennen/Raumen)/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135500000600800",
+        "title": "KU_Plan/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135500000600849",
+        "title": "KU_Plan_Phase2/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135500000601406",
+        "title": "Luftraumordnung/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000603201",
+        "title": "MKP_83_1/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000603139",
+        "title": "MKP_83_2/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000603204",
+        "title": "MKP_83_5/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000603202",
+        "title": "MPK_83_3/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120000000603203",
+        "title": "MPK_83_4/G2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000600899",
+        "title": "Obstacles/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221130000000600849",
+        "title": "OpsOverlay/G3"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221130000000600899",
+        "title": "OpsOverlay_Phase2/G3"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000601361",
+        "title": "Organisations Elemente/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000601088",
+        "title": "Raumen von Minensperren/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000601310",
+        "title": "Spreng und Minen Sperren/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221130000000601349",
+        "title": "Takt_zus_Gld/G3"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221130000000600949",
+        "title": "Task_Org/G3"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221120100000602484",
+        "title": "Verm_Absicht_MotSB_81_ebV/S2"
+      },
+      {
+        "uri": "layer://scen/12221169800000600899/12221135000000601038",
+        "title": "Zivile Lage/KU_Pi"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221120000000600849",
+    "role": "G2",
+    "type": "PLNORD",
+    "title": "JA_17A_Plan/G2",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000601999",
+        "title": "Aufklaerungsplan/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000601350",
+        "title": "ENY_Intention/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000601449",
+        "title": "ENY_Situation/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000601399",
+        "title": "ENY_Variante_1/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000601400",
+        "title": "ENY_Variante_2/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000605159",
+        "title": "ENY_Variante_2_a/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000603201",
+        "title": "MKP_83_1/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000603139",
+        "title": "MKP_83_2/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000603204",
+        "title": "MKP_83_5/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000604462",
+        "title": "MKP_83_6/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000603140",
+        "title": "MPK_83/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000603202",
+        "title": "MPK_83_3/G2"
+      },
+      {
+        "uri": "layer://scen/12221120000000600849/12221120000000603203",
+        "title": "MPK_83_4/G2"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221169800000600951",
+    "role": "GW",
+    "type": "FRNENO",
+    "title": "OWN_Lines/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221169800000600951/12221135500000600750",
+        "title": "OWN_BAE_Lines/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600951/12221169800000600860",
+        "title": "OWN_FueU_Lines/GW"
+      },
+      {
+        "uri": "layer://scen/12221169800000600951/12221140000000600851",
+        "title": "OWN_Lines/EU"
+      },
+      {
+        "uri": "layer://scen/12221169800000600951/12221130000000601000",
+        "title": "OWN_Lines/G3"
+      },
+      {
+        "uri": "layer://scen/12221169800000600951/12221135000000600950",
+        "title": "OWN_Pi_Lines/KU_Pi"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12221169800000600900",
+    "role": "GW",
+    "type": "FRDNEU",
+    "title": "OWN_Reported/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12221169800000600900/12221169800000600950",
+        "title": "C2_Reported/GW"
+      },
+      {
+        "uri": "layer://scen/12221169800000600900/12221135500000600850",
+        "title": "OWN_BAE_Reported/KU_BAE"
+      },
+      {
+        "uri": "layer://scen/12221169800000600900/12221140000000600750",
+        "title": "OWN_EU_Reported/EU"
+      },
+      {
+        "uri": "layer://scen/12221169800000600900/12221169800000600859",
+        "title": "OWN_FueU_Reported/GW"
+      },
+      {
+        "uri": "layer://scen/12221169800000600900/12221135000000600801",
+        "title": "OWN_Pi_Reported/KU_Pi"
+      },
+      {
+        "uri": "layer://scen/12221169800000600900/12221130000000600999",
+        "title": "OWN_Reported/G3"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenBrig-CP",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12110099900000602099",
+    "type": "PLNORD",
+    "title": "JA16_Ausganglage/TOC",
+    "overlays": [
+      {
+        "uri": "layer://scen/12110099900000602099/12110099900000602149",
+        "title": "BLUE_Ausganglage/TOC"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenDiv",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12110099900000602423",
+    "type": "PLNORD",
+    "title": "JA16_RED_Ausgangslage/TOC",
+    "overlays": [
+      {
+        "uri": "layer://scen/12110099900000602423/12110099900000602295",
+        "title": "RED_Ausgagnslage/TOC"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenDiv",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12110099900000601549",
+    "type": "PLNORD",
+    "title": "JA_BLUE_Gliederung/TOC",
+    "overlays": [
+      {
+        "uri": "layer://scen/12110099900000601549/12110099900000601466",
+        "title": "ORBAT_1.PzGrenBrig/TOC"
+      },
+      {
+        "uri": "layer://scen/12110099900000601549/12110099900000601628",
+        "title": "ORBAT_AAB10/TOC"
+      },
+      {
+        "uri": "layer://scen/12110099900000601549/12110099900000601692",
+        "title": "ORBAT_HICON/TOC"
+      },
+      {
+        "uri": "layer://scen/12110099900000601549/12110099900000601518",
+        "title": "ORBAT_PzB13/TOC"
+      },
+      {
+        "uri": "layer://scen/12110099900000601549/12110099900000601627",
+        "title": "ORBAT_PzGrenB11/TOC"
+      },
+      {
+        "uri": "layer://scen/12110099900000601549/12110099900000601517",
+        "title": "ORBAT_PzGrenB12/TOC"
+      },
+      {
+        "uri": "layer://scen/12110099900000601549/12110099900000601443",
+        "title": "ORBAT_PzStbB1/TOC"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "1.PzGrenDiv",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12591102000000600800",
+    "role": "S2 Officer",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S2 Officer",
+    "overlays": [
+      {
+        "uri": "layer://scen/12591102000000600800/12591102000000602381",
+        "title": "ENY_Reported Phase 2/S2 Officer"
+      },
+      {
+        "uri": "layer://scen/12591102000000600800/12591102000000600751",
+        "title": "ENY_Reported/S2 Officer"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AAB10",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12591103000000600899",
+    "role": "S3/GW",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12591103000000600899/12591103000000603399",
+        "title": "ENY_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AAB10",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12591103000000600900",
+    "role": "S3/GW",
+    "type": "GLBSGN",
+    "title": "Global_Situation/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12591103000000600900/12591103000000600802",
+        "title": "CBRN/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12591103000000600900/12591103000000600850",
+        "title": "Mines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AAB10",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12591103000000600799",
+    "role": "S3/GW",
+    "type": "PLNORD",
+    "title": "JA_17A/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12591103000000600799/12591102000000602208",
+        "title": " Phase 2/S2 Officer"
+      },
+      {
+        "uri": "layer://scen/12591103000000600799/12591102000000601100",
+        "title": "Aufklaerungsplan/S2 Officer"
+      },
+      {
+        "uri": "layer://scen/12591103000000600799/12591102000000600849",
+        "title": "ENY_Org/S2 Officer"
+      },
+      {
+        "uri": "layer://scen/12591103000000600799/12591102000000600799",
+        "title": "ENY_Situation/S2 Officer"
+      },
+      {
+        "uri": "layer://scen/12591103000000600799/12591103000000600901",
+        "title": "OpsOverlay/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12591103000000600799/12591103000000600778",
+        "title": "Truppeneinteilung/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AAB10",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12591103000000600949",
+    "role": "S3/GW",
+    "type": "FRNENO",
+    "title": "OWN_Lines/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12591103000000600949/12591103000000600950",
+        "title": "OWN_Lines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AAB10",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12591103000000600849",
+    "role": "S3/GW",
+    "type": "FRDNEU",
+    "title": "OWN_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12591103000000600849/12591103000000600801",
+        "title": "OWN_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AAB10",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12300010000000000920",
+    "type": "CORENU",
+    "title": "AUT-CNG-TECH-100-CORENU",
+    "overlays": [
+      {
+        "uri": "layer://scen/12300010000000000920/12300010000000000932",
+        "title": "AUT_MOR_MOOTW"
+      },
+      {
+        "uri": "layer://scen/12300010000000000920/12300010000000001735",
+        "title": "AUT_MOR_TE"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AUT-CNG-TECH-100"
+  },
+  {
+    "uri": "layer-group://scen/12300010000000000022",
+    "type": "FRNENO",
+    "title": "AUT-CNG-TECH-100-FRNENO",
+    "overlays": [
+      {
+        "uri": "layer://scen/12300010000000000022/12300010000000000387",
+        "title": "AUT_MOR_MA"
+      },
+      {
+        "uri": "layer://scen/12300010000000000022/12300010000000000035",
+        "title": "AUT_MOR_UN"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AUT-CNG-TECH-100"
+  },
+  {
+    "uri": "layer-group://scen/12300010000000002496",
+    "type": "PLNORD",
+    "title": "AUT-CNG-TECH-100-PLNORD-AUT_MOR_PLNORD",
+    "overlays": [
+      {
+        "uri": "layer://scen/12300010000000002496/12300010000000002551",
+        "title": "OPORD Overlay:AUT_MOR_PLNORD"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "AUT-CNG-TECH-100"
+  },
+  {
+    "uri": "layer-group://scen/12996999900000611405",
+    "type": "PLNORD",
+    "title": "Equipment/DataProvider",
+    "overlays": [
+      {
+        "uri": "layer://scen/12996999900000611405/12996999900000611460",
+        "title": "Equipment/DataProvider"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "CSC/APPL"
+  },
+  {
+    "uri": "layer-group://scen/12311133000000600849",
+    "role": "S3/GW",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12311133000000600849/12311133000000601050",
+        "title": "ENY_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzB13",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12311133000000600784",
+    "role": "S3/GW",
+    "type": "GLBSGN",
+    "title": "Global_Situation/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12311133000000600784/12311133000000600899",
+        "title": "CBRN/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12311133000000600784/12311133000000600806",
+        "title": "Mines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzB13",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12311133000000600800",
+    "role": "S3/GW",
+    "type": "PLNORD",
+    "title": "JA_17A/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12311133000000600800/12311133000000600999",
+        "title": "ENY_Org/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12311133000000600800/12311133000000600801",
+        "title": "ENY_Situation/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12311133000000600800/12311133000000600802",
+        "title": "OpsOverlay/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12311133000000600800/12311133000000600783",
+        "title": "Truppeneinteilung/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzB13",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12311133000000600850",
+    "role": "S3/GW",
+    "type": "FRNENO",
+    "title": "OWN_Lines/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12311133000000600850/12311133000000600805",
+        "title": "OWN_Lines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzB13",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12311133000000600803",
+    "role": "S3/GW",
+    "type": "FRDNEU",
+    "title": "OWN_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12311133000000600803/12311133000000602309",
+        "title": "OWN_EU_Reported/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12311133000000600803/12311133000000600804",
+        "title": "OWN_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzB13",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321113000000600850",
+    "role": "S3/GW",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321113000000600850/12321112000000600851",
+        "title": "ENY_Reported/S2"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB11",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321113000000600773",
+    "role": "S3/GW",
+    "type": "GLBSGN",
+    "title": "Global_Situation/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321113000000600773/12321113000000600950",
+        "title": "CBRN/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12321113000000600773/12321113000000600772",
+        "title": "Mines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB11",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321113000000600799",
+    "role": "S3/GW",
+    "type": "PLNORD",
+    "title": "JA17A/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321113000000600799/12321112000000600849",
+        "title": "ENY_Org/S2"
+      },
+      {
+        "uri": "layer://scen/12321113000000600799/12321112000000600799",
+        "title": "ENY_Situation/S2"
+      },
+      {
+        "uri": "layer://scen/12321113000000600799/12321113000000600800",
+        "title": "ObsOverlay/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12321113000000600799/12321113000000600849",
+        "title": "Truppeneinteilung/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB11",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321113000000600901",
+    "role": "S3/GW",
+    "type": "FRNENO",
+    "title": "OWN_Lines/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321113000000600901/12321113000000600949",
+        "title": "OWN_Lines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB11",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321113000000600899",
+    "role": "S3/GW",
+    "type": "FRDNEU",
+    "title": "OWN_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321113000000600899/12321113000000600900",
+        "title": "OWN_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB11",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321123000000600851",
+    "role": "S3/GW",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321123000000600851/12321123000000600801",
+        "title": "ENY_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB12",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321123000000600853",
+    "role": "S3/GW",
+    "type": "GLBSGN",
+    "title": "Global_Situation/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321123000000600853/12321123000000600802",
+        "title": "CBRN/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12321123000000600853/12321123000000600765",
+        "title": "Mines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB12",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321123000000600799",
+    "role": "S3/GW",
+    "type": "PLNORD",
+    "title": "JA_17A/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321123000000600799/12321123000000600763",
+        "title": "ENY_Org/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12321123000000600799/12321123000000600849",
+        "title": "ENY_Situation/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12321123000000600799/12321123000000600800",
+        "title": "OpsOverlay/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12321123000000600799/12321123000000600762",
+        "title": "Truppeneiteilung/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB12",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321123000000600852",
+    "role": "S3/GW",
+    "type": "FRNENO",
+    "title": "OWN_Lines/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321123000000600852/12321123000000600899",
+        "title": "OWN_Lines/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB12",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12321123000000600850",
+    "role": "S3/GW",
+    "type": "FRDNEU",
+    "title": "OWN_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12321123000000600850/12321123000000600764",
+        "title": "OWN_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzGrenB12",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12431013000000601399",
+    "role": "S3/GW",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12431013000000601399/12431013000000601353",
+        "title": "ENY_Org/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12431013000000601399/12431013000000602157",
+        "title": "ENY_Reported/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12431013000000601399/12431013000000601449",
+        "title": "ENY_Situation/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzStbB1",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12431013000000600852",
+    "role": "S3/GW",
+    "type": "GLBSGN",
+    "title": "Global_Situation/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12431013000000600852/12431013000000600949",
+        "title": "CBRN/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12431013000000600852/12431013000000600762",
+        "title": "Mines/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12431013000000600852/12431013000000600851",
+        "title": "OWN_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzStbB1",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12431013000000600799",
+    "role": "S3/GW",
+    "type": "PLNORD",
+    "title": "JA_17A/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12431013000000600799/12431013000000600849",
+        "title": "OpsOverlay/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12431013000000600799/12431013000000600850",
+        "title": "Truppeneinteilung/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzStbB1",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12431013000000600764",
+    "role": "S3/GW",
+    "type": "FRNENO",
+    "title": "OWN_Lines/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12431013000000600764/12431013000000600900",
+        "title": "OWN_Lines/S3/GW"
+      },
+      {
+        "uri": "layer://scen/12431013000000600764/12431013000000600899",
+        "title": "Truppeneinteilung/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzStbB1",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/12431013000000600763",
+    "role": "S3/GW",
+    "type": "FRDNEU",
+    "title": "OWN_Reported/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/12431013000000600763/12431013000000600851",
+        "title": "OWN_Reported/S3/GW"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "PzStbB1",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/11101000000000000000",
+    "role": "SCEN [CIAVX]",
+    "type": "PLNORD",
+    "title": "SCEN | PLNORD | OVERLAY ORDER NO. 1 (XXX) [CIAVX]",
+    "overlays": [
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000001",
+        "title": "CA  10BN Phase 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000002",
+        "title": "CA 1 Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000003",
+        "title": "CA 10 BN PH 4A"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000004",
+        "title": "CA 11 BN PH 4A"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000005",
+        "title": "CA 11 BN Phave 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000006",
+        "title": "CA 12 BN PH 4A"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000007",
+        "title": "CA 12 BN Phase 4b"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000008",
+        "title": "CA 13 BN PH 4A"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000009",
+        "title": "CA 13 BN Phase 4b"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000010",
+        "title": "CA 14 BN PH 4A"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000011",
+        "title": "CA 14 BN Phase 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000012",
+        "title": "CA 15 BN PH 4A"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000015",
+        "title": "CA 15 BN Phase 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000013",
+        "title": "CA 16 BN Phase 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000000/11101000000000000014",
+        "title": "CA 17 BN Phase 4B"
+      }
+    ],
+    "affiliation": "AUS",
+    "organization": "SCEN [CIAVX]"
+  },
+  {
+    "uri": "layer-group://scen/11101000000000000016",
+    "role": "SCEN [CIAVX]",
+    "type": "PLNORD",
+    "title": "SCEN | PLNORD | OVERLAY ORDER NO. 2 (XXX) [CIAVX]",
+    "overlays": [
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000019",
+        "title": "CA 10 BN PH 4A"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000017",
+        "title": "CA 18 BN Phase 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000018",
+        "title": "CA 1Inf Bn"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000020",
+        "title": "CA 2Inf Bn"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000021",
+        "title": "CA 3 Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000022",
+        "title": "CA 3Inf Bn"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000023",
+        "title": "CA 4 Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000024",
+        "title": "CA 4Inf BN"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000025",
+        "title": "CA 5 Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000032",
+        "title": "CA 5Inf Bn"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000026",
+        "title": "CA 6 Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000027",
+        "title": "CA 6Inf Bn"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000028",
+        "title": "CA 7Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000029",
+        "title": "CA 8Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000030",
+        "title": "CA 9Bn PH 4B"
+      },
+      {
+        "uri": "layer://scen/11101000000000000016/11101000000000000031",
+        "title": "CA Div 2 Rec BN PH 4A"
+      }
+    ],
+    "affiliation": "AUS",
+    "organization": "SCEN [CIAVX]"
+  },
+  {
+    "uri": "layer-group://scen/11102000000000000000",
+    "role": "SCEN [CIAVX]",
+    "type": "PLNORD",
+    "title": "SCEN | PLNORD | OVERLAY ORDER NO. 3 (XXX) [CIAVX]",
+    "overlays": [
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000012",
+        "title": "EST Force Laydown"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000010",
+        "title": "FSCM"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000011",
+        "title": "Intel"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000013",
+        "title": "Main Supply Routes"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000014",
+        "title": "Maritime"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000015",
+        "title": "PH 4A  DIV 1 SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000016",
+        "title": "PH 4A 1BDE SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000017",
+        "title": "PH 4A 2BDE SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000018",
+        "title": "PH 4A 3BDE SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000019",
+        "title": "PH 4A CA DIV1 RecBN"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000001",
+        "title": "PH 4A DIV 1 Log"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000003",
+        "title": "PH 4A Div 2 SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000002",
+        "title": "PH 4a DIV 2 LOG"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000005",
+        "title": "PH4A 4 BDE SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000004",
+        "title": "Ph 4A FFT Start Positions"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000009",
+        "title": "Phase 0 Boundaries"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000007",
+        "title": "Phase 4 B Enemy"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000006",
+        "title": "Phase 4 C Enemy"
+      },
+      {
+        "uri": "layer://scen/11102000000000000000/11102000000000000008",
+        "title": "Phase 4 LCC"
+      }
+    ],
+    "affiliation": "AUS",
+    "organization": "SCEN [CIAVX]"
+  },
+  {
+    "uri": "layer-group://scen/11102000000000000020",
+    "role": "SCEN [CIAVX]",
+    "type": "PLNORD",
+    "title": "SCEN | PLNORD | OVERLAY ORDER NO. 4 (XXX) [CIAVX]",
+    "overlays": [
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000032",
+        "title": "PHASE 4A 1 DIV FIRES"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000024",
+        "title": "PHASE 4A 1DIV TARGETS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000025",
+        "title": "PHASE 4A 2 DIV RADARS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000023",
+        "title": "Phase 4A 1DIV"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000021",
+        "title": "Phase 4A 1DIV 1-6BN"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000026",
+        "title": "Phase 4A 2 Div"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000027",
+        "title": "Phase 4A 4BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000028",
+        "title": "Phase 4A 5 BDE SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000029",
+        "title": "Phase 4A 5BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000030",
+        "title": "Phase 4A 6 BDE SIGACTS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000031",
+        "title": "Phase 4A Enemy"
+      },
+      {
+        "uri": "layer://scen/11102000000000000020/11102000000000000022",
+        "title": "Phase 4a 1 DIV RADARS"
+      }
+    ],
+    "affiliation": "AUS",
+    "organization": "SCEN [CIAVX]"
+  },
+  {
+    "uri": "layer-group://scen/11102000000000000033",
+    "role": "SCEN [CIAVX]",
+    "type": "PLNORD",
+    "title": "SCEN | PLNORD | OVERLAY ORDER NO. 5 (XXX) [CIAVX]",
+    "overlays": [
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000034",
+        "title": "PHASE 4B 1 DIV RADAR"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000036",
+        "title": "PHASE 4B 2 DIV RADARS"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000035",
+        "title": "Phase 4B 1Mech Bde"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000037",
+        "title": "Phase 4B 2DIV"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000038",
+        "title": "Phase 4B 2Mech Bde"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000039",
+        "title": "Phase 4B 3 Bde"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000040",
+        "title": "Phase 4B 4 BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000041",
+        "title": "Phase 4B 5 BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000042",
+        "title": "Phase 4B 6 BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000043",
+        "title": "Phase 4B FFT Start Pos"
+      },
+      {
+        "uri": "layer://scen/11102000000000000033/11102000000000000044",
+        "title": "Phase 4B-1Div"
+      }
+    ],
+    "affiliation": "AUS",
+    "organization": "SCEN [CIAVX]"
+  },
+  {
+    "uri": "layer-group://scen/11102000000000000045",
+    "role": "SCEN [CIAVX]",
+    "type": "PLNORD",
+    "title": "SCEN | PLNORD | OVERLAY ORDER NO. 6 (XXX) [CIAVX]",
+    "overlays": [
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000046",
+        "title": "Phase 4C 1Div"
+      },
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000047",
+        "title": "Phase 4C 1Mec Bde"
+      },
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000048",
+        "title": "Phase 4C 2DIV"
+      },
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000049",
+        "title": "Phase 4C 2Mech Bde"
+      },
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000050",
+        "title": "Phase 4C 4 BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000051",
+        "title": "Phase 4C 5 BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000052",
+        "title": "Phase 4C 6 BDE"
+      },
+      {
+        "uri": "layer://scen/11102000000000000045/11102000000000000053",
+        "title": "Unit HQ"
+      }
+    ],
+    "affiliation": "AUS",
+    "organization": "SCEN [CIAVX]"
+  },
+  {
+    "uri": "layer-group://scen/12110000000009601509",
+    "type": "PLNORD",
+    "title": "ROT_Org/DataProvider",
+    "overlays": [
+      {
+        "uri": "layer://scen/12110000000009601509/12110000000009605298",
+        "title": "7_MotSBrig/DataProvider"
+      },
+      {
+        "uri": "layer://scen/12110000000009601509/12110000000009602184",
+        "title": "motSB81/DataProvider"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "TherMilAk"
+  },
+  {
+    "uri": "layer-group://scen/12999999800000601299",
+    "type": "GLBSGN",
+    "title": "VORLAGE_Action_Task_Event_Engl_22oct14/Wipperfuerth",
+    "overlays": [
+      {
+        "uri": "layer://scen/12999999800000601299/12999999800000601301",
+        "title": "auf_Basis_Aircraft/Wipperfuerth"
+      },
+      {
+        "uri": "layer://scen/12999999800000601299/12999999800000601300",
+        "title": "auf_Basis_Electronic_Equipment/Wipperfuerth"
+      },
+      {
+        "uri": "layer://scen/12999999800000601299/12999999800000601399",
+        "title": "auf_Basis_Miscellaneous/Wipperfuerth"
+      },
+      {
+        "uri": "layer://scen/12999999800000601299/12999999800000601350",
+        "title": "auf_Basis_Weapons/Wipperfuerth"
+      }
+    ],
+    "affiliation": "AUT",
+    "organization": "UG 7.JgBrig",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/10321813000000601403",
+    "type": "UNCORR",
+    "title": "ENY_Reported/S2/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/10321813000000601403/10321812000000601400",
+        "title": "Eny_Reported/Res1"
+      }
+    ],
+    "affiliation": "MIP",
+    "organization": "motSB81",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/10321813000000601377",
+    "type": "GLBSGN",
+    "title": "Global_Situation/S2/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/10321813000000601377/10321813000000601405",
+        "title": "CBRN/S2/S3/GW"
+      },
+      {
+        "uri": "layer://scen/10321813000000601377/10321813000000601452",
+        "title": "Mines/S2/S3/GW"
+      }
+    ],
+    "affiliation": "MIP",
+    "organization": "motSB81",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/10321813000000602011",
+    "type": "PLNORD",
+    "title": "JA_17_A__RED/S2/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/10321813000000602011/10321813000000601400",
+        "title": "OpsOverlay/S2/S3/GW"
+      },
+      {
+        "uri": "layer://scen/10321813000000602011/10321813000000602076",
+        "title": "TASK-Org/S2/S3/GW"
+      }
+    ],
+    "affiliation": "MIP",
+    "organization": "motSB81",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/10321813000000601404",
+    "type": "FRNENO",
+    "title": "OWN_Lines_RED/S2/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/10321813000000601404/10321813000000601451",
+        "title": "OWN_Lines/S2/S3/GW"
+      }
+    ],
+    "affiliation": "MIP",
+    "organization": "motSB81",
+    "classification": "BMLV"
+  },
+  {
+    "uri": "layer-group://scen/10321813000000601402",
+    "type": "FRDNEU",
+    "title": "OWN_Reported_RED/S2/S3/GW",
+    "overlays": [
+      {
+        "uri": "layer://scen/10321813000000601402/10321813000000601449",
+        "title": "OWN_Reported_RED/S2/S3/GW"
+      }
+    ],
+    "affiliation": "MIP",
+    "organization": "motSB81",
+    "classification": "BMLV"
+  }
+]
