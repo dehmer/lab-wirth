@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Spotlight from './Spotlight'
+import NestedList from './NestedList'
 import Paper from '@material-ui/core/Paper'
 
 const useStyles = makeStyles(theme => ({
@@ -33,10 +33,6 @@ const useStyles = makeStyles(theme => ({
   },
 
   contentPanel: {
-    // borderStyle: 'dashed',
-    // borderColor: 'red',
-    // borderWidth: 1,
-
     gridArea: 'CONTENT',
     display: 'grid',
     gridTemplateColumns: '25em auto 25em',
@@ -49,21 +45,17 @@ const useStyles = makeStyles(theme => ({
   },
 
   leftPanel: {
-    // borderStyle: 'dashed',
-    // borderColor: 'green',
-    // borderWidth: 1,
+    overflow: 'auto',
     pointerEvents: 'auto',
     borderRadius: '6px', // default: 4px
     gridArea: 'L',
   },
 
   rightPanel: {
+    overflow: 'auto',
     pointerEvents: 'auto',
     borderRadius: '6px', // default: 4px
-    gridArea: 'R',
-    borderStyle: 'dashed',
-    borderColor: 'green',
-    borderWidth: 1
+    gridArea: 'R'
   },
 
   bottomPanel: {
@@ -97,23 +89,17 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-const Tag = props => {
-  const classes = useStyles()
-  const { label = 'S2' } = props
-  return (
-    <div className={classes.tag}>{label.toUpperCase()}</div>
-  )
-}
-
 export default function App() {
   const classes = useStyles()
   return (
       <div className={classes.overlay}>
         <div className={classes.osd}></div>
         <div className={classes.contentPanel}>
-          <div className={classes.leftPanel}></div>
-          <Spotlight className={classes.rightPanel}/>
-          <Paper className={classes.bottomPanel} elevation={4}>
+          {/* <div className={classes.leftPanel}></div> */}
+          <Paper className={classes.rightPanel} elevation={4}>
+            <NestedList/>
+          </Paper>
+          {/* <Paper className={classes.bottomPanel} elevation={4}>
             <Tag label='CORENU'></Tag>
             <Tag label='FRDNEU'></Tag>
             <Tag label='FRNENO'></Tag>
@@ -135,7 +121,7 @@ export default function App() {
             <Tag label='S3'></Tag>
             <Tag label='S4'></Tag>
             <Tag label='S6'></Tag>
-          </Paper>
+          </Paper> */}
         </div>
       </div>
   )

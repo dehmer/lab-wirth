@@ -1420,32 +1420,6 @@
     "organization": "TherMilAk"
   },
   {
-    "uri": "layer-group://scen/12999999800000601299",
-    "type": "GLBSGN",
-    "title": "VORLAGE_Action_Task_Event_Engl_22oct14/Wipperfuerth",
-    "overlays": [
-      {
-        "uri": "layer://scen/12999999800000601299/12999999800000601301",
-        "title": "auf_Basis_Aircraft/Wipperfuerth"
-      },
-      {
-        "uri": "layer://scen/12999999800000601299/12999999800000601300",
-        "title": "auf_Basis_Electronic_Equipment/Wipperfuerth"
-      },
-      {
-        "uri": "layer://scen/12999999800000601299/12999999800000601399",
-        "title": "auf_Basis_Miscellaneous/Wipperfuerth"
-      },
-      {
-        "uri": "layer://scen/12999999800000601299/12999999800000601350",
-        "title": "auf_Basis_Weapons/Wipperfuerth"
-      }
-    ],
-    "affiliation": "AUT",
-    "organization": "UG 7.JgBrig",
-    "classification": "BMLV"
-  },
-  {
     "uri": "layer-group://scen/10321813000000601403",
     "type": "UNCORR",
     "title": "ENY_Reported/S2/S3/GW",
