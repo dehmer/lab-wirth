@@ -11,17 +11,27 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
+const K = v => fn => { fn(v); return v }
 
 export default function NestedList() {
   const classes = useStyles()
+  const uri = group => group.uri
+  const unset = (acc, uri) => K(acc)(acc => acc[uri] = false)
+  const initialExpandedState = layers.map(uri).reduce(unset, {})
+
+  const [expanded, setExpanded] = React.useState(initialExpandedState)
+  const onExpanded = uri => value => {
+    const { ...state } = initialExpandedState
+    state[uri] = value
+    setExpanded(state)
+  }
+
   const groups = layers.map(group => <LayerGroup
     key={group.uri}
+    expanded={expanded[group.uri]}
+    onExpanded={onExpanded(group.uri)}
     group={group}
   />)
 
-  return (
-    <List className={classes.list}>
-      { groups }
-    </List>
-  )
+  return <List className={classes.list}>{ groups }</List>
 }

@@ -60,7 +60,6 @@ const VisibilitySwitch = props => {
     color="primary"
     size="small"
   />
-
 }
 
 const Overlay = props => {
@@ -88,23 +87,16 @@ const Overlay = props => {
 
 export default props => {
   const classes = useStyles()
-  const { group } = props
+  const { group, expanded, onExpanded } = props
   const tags = [group.affiliation, group.role, group.type, group.classification]
-
   const [visible, setVisible] = React.useState(Math.random() > 0.2)
   const onVisibilityChange = () => setVisible(!visible)
-  const [expanded, setExpanded] = React.useState(false)
-  const handleExpanded = () => setExpanded(!expanded)
 
   const overlays = (group.overlays || []).map(overlay => <Overlay
     key={overlay.uri}
     group={group}
     overlay={overlay}
   />)
-
-  const expandIcon = expanded
-    ? <ExpandLess className={classes.itemRight}/>
-    : <ExpandMore className={classes.itemRight}/>
 
   return (
     <>
@@ -122,9 +114,9 @@ export default props => {
         <IconButton
           className={classes.itemRight}
           color="primary"
-          onClick={handleExpanded}
+          onClick={() => onExpanded(!expanded)}
         >
-          { expandIcon }
+          { expanded ? <ExpandLess/> : <ExpandMore/> }
         </IconButton>
       </div>
       <Collapse
