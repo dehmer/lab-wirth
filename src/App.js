@@ -49,6 +49,7 @@ const useStyles = makeStyles(theme => ({
     pointerEvents: 'auto',
     borderRadius: '6px', // default: 4px
     gridArea: 'L',
+    backgroundColor: '#fffafa' // snow: https://encycolorpedia.com/fffafa
   },
 
   rightPanel: {
@@ -96,32 +97,9 @@ export default function App() {
         <div className={classes.osd}></div>
         <div className={classes.contentPanel}>
           {/* <div className={classes.leftPanel}></div> */}
-          <Paper className={classes.rightPanel} elevation={4}>
+          <Paper className={classes.leftPanel} elevation={4}>
             <NestedList/>
           </Paper>
-          {/* <Paper className={classes.bottomPanel} elevation={4}>
-            <Tag label='CORENU'></Tag>
-            <Tag label='FRDNEU'></Tag>
-            <Tag label='FRNENO'></Tag>
-            <Tag label='GLBSGN'></Tag>
-            <Tag label='PLNORD'></Tag>
-            <Tag label='UNCORR'></Tag>
-
-            <Tag label='Correlated enemy and unknown'></Tag>
-            <Tag label='Friendly and neutral (organisational)'></Tag>
-            <Tag label='Friendly and neutral (non-organisational)'></Tag>
-            <Tag label='Globally significant'></Tag>
-            <Tag label='Plans/Orders'></Tag>
-            <Tag label='Uncorrelated enemy and unknown'></Tag>
-
-            <Tag label='unclassified'></Tag>
-            <Tag label='BMLV'></Tag>
-
-            <Tag label='S2'></Tag>
-            <Tag label='S3'></Tag>
-            <Tag label='S4'></Tag>
-            <Tag label='S6'></Tag>
-          </Paper> */}
         </div>
       </div>
   )

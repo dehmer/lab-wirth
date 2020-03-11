@@ -62,6 +62,17 @@ const VisibilitySwitch = props => {
   />
 }
 
+const Body = props => {
+  const classes = useStyles()
+  const {children, tags} = props
+  return (
+    <div className={classes.itemCenter}>
+      {children}
+      <TagPanel tags={tags}/>
+    </div>
+  )
+}
+
 const Overlay = props => {
   const classes = useStyles()
   const {overlay} = props // NOTE: group is available too
@@ -71,10 +82,7 @@ const Overlay = props => {
   return (
     <div className={classes.layerItem} key={overlay.uri}>
       <VisibilitySwitch visible={visible} onVisibilityChange={onVisibilityChange}/>
-      <div className={classes.itemCenter}>
-        {overlay.title}
-        <TagPanel tags={['Overlay']}/>
-      </div>
+      <Body tags={['Overlay']}>{overlay.title}</Body>
       <IconButton
         className={classes.itemRight}
         color="primary"
@@ -105,12 +113,9 @@ export default props => {
         key={group.uri}
       >
         <VisibilitySwitch visible={visible} onVisibilityChange={onVisibilityChange}/>
-        <div
-          className={classes.itemCenter}
-        >
+        <Body tags={tags}>
           <b>{group.organization}</b> — {group.title}
-          <TagPanel tags={tags}/>
-        </div>
+        </Body>
         <IconButton
           className={classes.itemRight}
           color="primary"

@@ -1,6 +1,13 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
+const DarkRed = 'darkred'
+const RedSalsa = '#fd3a4a' // https://encycolorpedia.com/fd3a4a
+const PinkRed = '#c50212' // https://encycolorpedia.com/c50212
+const Firebrick = "#b22222"
+
+const TagColor = Firebrick
+
 const useStyles = makeStyles(theme => ({
   'tag-area': {
     marginTop: '4px',
@@ -13,9 +20,9 @@ const useStyles = makeStyles(theme => ({
 
   tag: {
     pointerEvents: 'none',
-    border: '1px solid darkred',
+    border: `1px solid ${TagColor}`,
     borderRadius: '3px',
-    color: 'darkred',
+    color: TagColor,
     fontSize: '.65rem',
     letterSpacing: '1px',
     padding: '.1rem .2rem',
@@ -28,9 +35,9 @@ const useStyles = makeStyles(theme => ({
 
   tagPlaceholder: {
     pointerEvents: 'none',
-    border: '1px dashed darkred',
+    border: `1px dashed ${TagColor}`,
     borderRadius: '3px',
-    color: 'darkred',
+    color: TagColor,
     fontSize: '.65rem',
     letterSpacing: '1px',
     padding: '.1rem .2rem',
