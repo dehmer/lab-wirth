@@ -119,22 +119,14 @@ export default props => {
 
   return (
     <>
-      <div
-        className={classes.item}
-        key={group.uri}
-      >
+      <div className={classes.item} key={group.uri}>
         <VisibilitySwitch visible={visible} onVisibilityChange={onVisibilityChange}/>
         <Body tags={tags}>
           <b>{group.organization}</b> — {group.title}
         </Body>
         <Action onClick={onClick}>{icon}</Action>
       </div>
-      <Collapse
-        key={':' + group.uri}
-        in={expanded}
-        timeout="auto"
-        unmountOnExit
-      >
+      <Collapse in={expanded} timeout={200} unmountOnExit>
         <List component="div" disablePadding>{overlays}</List>
       </Collapse>
     </>
