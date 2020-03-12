@@ -73,6 +73,20 @@ const Body = props => {
   )
 }
 
+const Action = props => {
+  const classes = useStyles()
+  const {children, onClick} = props
+  return (
+    <IconButton
+      className={classes.itemRight}
+      color="primary"
+      onClick={onClick}
+    >
+      {children}
+    </IconButton>
+  )
+}
+
 const Overlay = props => {
   const classes = useStyles()
   const {overlay} = props // NOTE: group is available too
@@ -83,12 +97,7 @@ const Overlay = props => {
     <div className={classes.layerItem} key={overlay.uri}>
       <VisibilitySwitch visible={visible} onVisibilityChange={onVisibilityChange}/>
       <Body tags={['Overlay']}>{overlay.title}</Body>
-      <IconButton
-        className={classes.itemRight}
-        color="primary"
-      >
-        <MoreVertIcon />
-      </IconButton>
+      <Action><MoreVertIcon/></Action>
     </div>
   )
 }
@@ -99,6 +108,8 @@ export default props => {
   const tags = [group.affiliation, group.role, group.type, group.classification]
   const [visible, setVisible] = React.useState(Math.random() > 0.2)
   const onVisibilityChange = () => setVisible(!visible)
+  const onClick = () => onExpanded(!expanded)
+  const icon = expanded ? <ExpandLess/> : <ExpandMore/>
 
   const overlays = (group.overlays || []).map(overlay => <Overlay
     key={overlay.uri}
@@ -116,13 +127,7 @@ export default props => {
         <Body tags={tags}>
           <b>{group.organization}</b> — {group.title}
         </Body>
-        <IconButton
-          className={classes.itemRight}
-          color="primary"
-          onClick={() => onExpanded(!expanded)}
-        >
-          { expanded ? <ExpandLess/> : <ExpandMore/> }
-        </IconButton>
+        <Action onClick={onClick}>{icon}</Action>
       </div>
       <Collapse
         key={':' + group.uri}
@@ -130,9 +135,7 @@ export default props => {
         timeout="auto"
         unmountOnExit
       >
-        <List component="div" disablePadding>
-          { overlays }
-        </List>
+        <List component="div" disablePadding>{overlays}</List>
       </Collapse>
     </>
   )

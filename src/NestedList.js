@@ -1,8 +1,11 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
+import { Map } from 'immutable'
 import LayerGroup from './LayerGroup'
 import layers from './layers.json'
+
+const layerGroups = layers.filter(layer => !layer.title.includes('GW'))
 
 const useStyles = makeStyles(theme => ({
   list: {
@@ -11,24 +14,16 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-const K = v => fn => { fn(v); return v }
-
 export default function NestedList() {
   const classes = useStyles()
   const uri = group => group.uri
-  const unset = (acc, uri) => K(acc)(acc => acc[uri] = false)
-  const initialExpandedState = layers.map(uri).reduce(unset, {})
-
+  const initialExpandedState = layerGroups.map(uri).reduce((acc, uri) => acc.set(uri, false), Map({}))
   const [expanded, setExpanded] = React.useState(initialExpandedState)
-  const onExpanded = uri => value => {
-    const { ...state } = initialExpandedState
-    state[uri] = value
-    setExpanded(state)
-  }
+  const onExpanded = uri => value => setExpanded(initialExpandedState.set(uri, value))
 
-  const groups = layers.map(group => <LayerGroup
+  const groups = layerGroups.map(group => <LayerGroup
     key={group.uri}
-    expanded={expanded[group.uri]}
+    expanded={expanded.get(group.uri)}
     onExpanded={onExpanded(group.uri)}
     group={group}
   />)
