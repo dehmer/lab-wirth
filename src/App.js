@@ -48,8 +48,7 @@ const useStyles = makeStyles(theme => ({
     overflow: 'auto',
     pointerEvents: 'auto',
     borderRadius: '6px', // default: 4px
-    gridArea: 'L',
-    backgroundColor: '#fffafa' // snow: https://encycolorpedia.com/fffafa
+    gridArea: 'L'
   },
 
   rightPanel: {

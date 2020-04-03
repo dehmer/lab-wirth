@@ -1,4 +1,5 @@
 import React from 'react'
+import 'typeface-roboto'
 import { makeStyles } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
 import Collapse from '@material-ui/core/Collapse'
@@ -17,7 +18,7 @@ const useStyles = makeStyles(theme => ({
     gridTemplateAreas: '"L C R"',
     padding: '4px 8px', // top/bottom left/right
     borderBottom: '1px solid #cccccc',
-    fontFamily: 'sans-serif',
+    fontFamily: 'Roboto'
   },
 
   layerItem: {
@@ -27,7 +28,7 @@ const useStyles = makeStyles(theme => ({
     gridTemplateAreas: '"L C R"',
     padding: '4px 8px', // top/bottom left/right
     borderBottom: '1px solid #cccccc',
-    fontFamily: 'sans-serif',
+    fontFamily: 'Roboto',
     backgroundColor: '#f5f5f5',
   },
 
@@ -46,7 +47,7 @@ const useStyles = makeStyles(theme => ({
     gridArea: 'R',
     justifySelf: 'end',
     alignSelf: 'center'
-  },
+  }
 }))
 
 const VisibilitySwitch = props => {
